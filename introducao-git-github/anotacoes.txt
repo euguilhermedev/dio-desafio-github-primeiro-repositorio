@@ -1,0 +1,48 @@
+Introdução ao Git
+
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos básicos:
+
+Mudar de pasta
+ - Windows: cd/
+ - Unix: cd (cd .. retorna para o nível anterior)
+
+Listar pastas
+ - Windows: dir
+ - Unix - ls (ls -a exibe arquivos ocultos)
+
+Criar pastas
+ - Windows: mkdir
+ - Unix: mkdir
+
+Deletar uma pasta
+ - Windows: rmdir /s /q
+ - Unix: rm -rf (seguido da 'pasta a deletar'/)
+
+Criar um arquivo
+ - Windows: echo name > 'nome arquivo'.txt
+ - Unix: echo name > 'nome arquivo'.txt
+
+Deletar um arquivo
+ - Windows: del
+ - Unix:
+
+Git init - Cria-se um repositório
+Git status - mostra o status dos arquivos
+MV - Move os arquivos
+Git Add + 'nome do arquivo'
+Git Add *
+Git Add .
+
+Git remote add + 'link GitHub' - Empurrar versão para o repositório remoto
+Git push origin master - Levar do repositório local para o repositório remoto
+Git pull origin master - Puxar a versão mais atual do repositório remoto para o repositório local
+
+
+Tracked - Arquivos os quais o Git têm ciência deles
+Untracked - Arquivos os quais o Git não têm ciência deles
+
+Umodified - Arquivos não modificados
+Modified - Arquivo "unmodified"que sofreu alteração
+Staged - Onde ficam os arquivos que aguardam outro tipo de agrupamento
